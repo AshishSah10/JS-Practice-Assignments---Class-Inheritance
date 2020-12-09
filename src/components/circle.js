@@ -3,8 +3,8 @@ const Shape = require("./shape");
 
 // declare class
 class Circle extends Shape {
-  constructor(color) {
-    super(color);
+  constructor() {
+    super();
   }
   calculateArea(r) {
     return (22 / 7) * r * r;
