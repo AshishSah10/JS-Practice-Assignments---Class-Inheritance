@@ -6,5 +6,5 @@ class Shape {
   drawShape() {}
   calculateArea() {}
 }
-module.exports = Shape();
+module.exports = Shape;
 // export class using module.exports
